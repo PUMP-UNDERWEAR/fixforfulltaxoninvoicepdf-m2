@@ -1,0 +1,17 @@
+{
+    "name": "fooman/fixforfulltaxoninvoicepdf-m2",
+    "description": "https://github.com/magento/magento2/pull/9765",
+    "version": "0.5.0",
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": {
+            "Fooman\\FixForFullTaxOnInvoicePdf\\": "src/"
+        },
+        "files": [
+            "src/registration.php"
+        ]
+    },
+    "require": {
+        "magento/module-tax": "100.1.*"
+    }
+}
