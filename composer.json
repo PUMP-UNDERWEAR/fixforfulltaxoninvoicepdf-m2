@@ -12,6 +12,6 @@
         ]
     },
     "require": {
-        "magento/module-tax": "100.1.*"
+        "magento/module-tax": "^100.1.*"
     }
 }
